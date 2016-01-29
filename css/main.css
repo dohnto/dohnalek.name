@@ -1,0 +1,81 @@
+body {
+    background: #EFEFEF;
+}
+
+
+body, html {
+  height: 100%;
+}
+
+
+.background {
+    height: 50%;
+    width:100%;
+    background-color:#1A8CAB;
+    margin:auto;
+    text-align:center;
+    background-image:url(../images/Elegant_Background-8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+header {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    margin: 0 auto;
+    margin-top: -200px;
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    color: #333333;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+
+header .name {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 48px;
+}
+
+
+header .data {
+    padding: 0px 40px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+header .social {
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #374552;
+}
+
+header .social .fa {
+    padding: 0;
+    width: 49%;
+}
+
+
+header .social a {
+    color: white;
+}
+
+
+header .social a:hover {
+    background-color: #263441;
+}
+
+header .row {
+    margin-top: 15px;
+}
+
+header .row .tr {
+    text-transform: uppercase;
+    font-weight: bold;
+}
