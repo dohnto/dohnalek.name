@@ -8,7 +8,7 @@ body, html {
 }
 
 
-.background {
+#top-background {
     height: 50%;
     width:100%;
     background-color: #263441;
@@ -19,7 +19,7 @@ body, html {
     background-size: 100% auto;
 }
 
-header {
+main {
     position: relative;
     background: #FFFFFF;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
@@ -35,7 +35,7 @@ header {
 }
 
 
-header .name {
+main h1 {
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
@@ -43,39 +43,39 @@ header .name {
 }
 
 
-header .data {
+main #contact-information {
     padding: 0px 40px;
     text-align: left;
     margin-bottom: 40px;
     margin-top: 20px;
 }
 
-header .social {
+main #social {
     font-size: 30px;
     color: #FFFFFF;
     background-color: #374552;
 }
 
-header .social .fa {
+main #social .fa {
     padding: 0;
-    width: 49%;
+    width: 32%;
 }
 
 
-header .social a {
+main #social a {
     color: white;
 }
 
 
-header .social a:hover {
+main #social a:hover {
     background-color: #263441;
 }
 
-header .row {
+main .row {
     margin-top: 15px;
 }
 
-header .row .tr {
+main .row .caption {
     text-transform: uppercase;
     font-weight: bold;
 }
