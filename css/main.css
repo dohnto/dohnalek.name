@@ -58,7 +58,11 @@ main #social {
 
 main #social .fa {
     padding: 0;
-    width: 32%;
+    width: 24%;
+}
+main #social .far {
+    padding: 0;
+    width: 24%;
 }
 
 
